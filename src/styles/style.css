@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .navName {
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+
+  /* Styling for the home page */
+.homediv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profpic {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: solid rgb(255, 255, 255) 3px;
+    margin-top: 12%;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.background {
+    z-index: -1;
+    position: absolute;
+    opacity: 0.6;
+    width: 100%;
+}
+
+.homeh1 {
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.homep {
+    padding-top: 2%;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15%;
+    padding-left: 15%;
+    text-align: center;
+}
+
+.homemain {
+    width: 100%
+}
+
+/* Styling for the Contact Page */
+
+.contactp {
+    padding-top: 2%;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+}
+.contactul {
+    list-style: none;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+.contactli {
+    width: 25%;
+    justify-content: space-between;
+}
+
+/* For small devices such as phones */
+@media only screen and (max-width: 600px) {
+    /* Contact Page */
+    .contactli {
+        text-align: center;
+        padding-top: 3%;
+    }
+    .contactul {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+/* Portfolio Page Styling */
+
+.card {
+    align-items: center;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 12%;
+    box-shadow: 4px 4px 4px 6px grey;
+}
+
+.card h3 {
+    padding-top: 2%;
+}
+
+.gitLink {
+    margin-top: 3%;
+}
+
+/* About Styling */
+
+.Aboutp {
+    text-align: center;
+    margin-top: 3%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-a {
+    display: block;
+    text-align: center;
+}
