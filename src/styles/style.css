@@ -131,3 +131,8 @@
     display: block;
     text-align: center;
 }
+
+.description {
+    width: 60%;
+    text-align: center;
+}
