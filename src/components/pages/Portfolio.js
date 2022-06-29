@@ -1,9 +1,8 @@
 import React from "react";
-import moviepic from "../../images/Movie-1200-630.jpg";
-import restaurantimg from "../../images/restaurant-portfolio-img.webp";
-import weather from '../../images/weatherimg.jpg'
-import quiz from '../../images/quiz.webp';
-import password from '../../images/passwordImage.webp';
+import restaurantimg from "../../images/Restaurant_App.png";
+import weather from '../../images/Weather_App.png'
+import quiz from '../../images/Dental_Quiz_App.png';
+import password from '../../images/Password_App.png';
 
 export default function Project() {
   return (
@@ -17,19 +16,6 @@ export default function Project() {
         <a href="https://github.com/erict001/Restaurant-Finder" target="no_blank" class="gitLink">Github Repository</a>
         <h3>Restaurant Finder</h3>
         <p class='description'>This application uses the Yelp API to search restuarants by keyword and location. You also have the ability to save your favorite restaurants for later reference. Handlebars are used for page rendering and the languages used are html, css and javascript.</p>
-      </section>
-      {/* Movie and Beverage Pairer */}
-      <section class="card">
-        <a
-          href="https://jnbanks.github.io/Project1-Movie-Beverage/"
-          target="no_blank"
-        >
-          {" "}
-          <img src={moviepic} alt="movie finder" />{" "}
-        </a>
-        <a href="https://github.com/Jnbanks/Project1-Movie-Beverage" target="no_blank" class="gitLink">Github Repository</a>
-        <h3>Boozy Movies</h3>
-        <p class="description">My first group project from the UW's full stack bootcamp, Boozy Movies is another web API fetching application that sources a movie database and a beverage database. You use drop down menus to clarify your search or just hit the random generator button and the website produces a movie and drink suggestion for you, so you don't have to scroll through endless selections on Netflix.</p>
       </section>
       {/* Weather Forecast Search */}
       <section class="card">
